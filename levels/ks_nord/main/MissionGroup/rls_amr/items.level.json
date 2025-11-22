@@ -1,0 +1,4 @@
+{"name":"Level Gate","class":"SpawnSphere","__parent":"rls_amr","position":[198.430435,-855.678528,391.491943],"dataBlock":"SpawnSphereMarker","radius":1,"rotationMatrix":[-0.931031048,-0.364939481,0.000502379611,0.364306778,-0.929496288,-0.0575943105,0.0214853976,-0.0534390807,0.998339891],"spawnClass":"Player","sphereWeight0":"1"}
+{"name":"switchMaps","class":"BeamNGTrigger","__parent":"rls_amr","position":[190.710678,-894.380493,390.980591],"luaFunction":"onBeamNGTrigger","rotationMatrix":[-0.883767962,-0.466949493,0.0302349143,0.465617448,-0.883979917,-0.0422091037,0.0464365445,-0.0232251212,0.998651206],"scale":[6.72493744,2.31729245,8.6232233]}
+{"name":"fre","class":"SimGroup","__parent":"rls_amr"}
+{"name":"PitLane","class":"SimGroup","__parent":"rls_amr"}

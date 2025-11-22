@@ -1,0 +1,4 @@
+{"name":"t13_fuel_station_area1","class":"BeamNGGameplayArea","persistentId":"29ff854c-1690-42ea-b519-7fb55079bd8b","__parent":"t13","position":[-1004.62097,-1724.39587,445.761688],"rotationMatrix":[0.766044438,0.642787576,0,-0.642787576,0.766044438,0,0,0,1],"scale":[1.91819406,0.668590307,0.594482422]}
+{"name":"t13_fuel_station_area2","class":"BeamNGGameplayArea","persistentId":"7a4de06e-d449-45a2-8637-362a2a7139aa","__parent":"t13","position":[-1001.68805,-1727.71643,445.446259],"rotationMatrix":[0.766044438,0.642787576,0,-0.642787576,0.766044438,0,0,0,1],"scale":[2.02445054,0.668590307,0.594482422]}
+{"name":"t13_fuel_station_icon1","class":"BeamNGPointOfInterest","persistentId":"d117e2a6-18f9-4ae1-8829-d6f053f78efc","__parent":"t13","position":[-1004.5957,-1724.32471,446.657288]}
+{"name":"t13_fuel_station_icon2","class":"BeamNGPointOfInterest","persistentId":"315b657e-bd54-4a69-a07d-452dc9f7496d","__parent":"t13","position":[-1001.74017,-1727.74573,446.425812]}

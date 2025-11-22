@@ -1,0 +1,2 @@
+{"name":"pitLaneMeComputer_icon","class":"BeamNGPointOfInterest","__parent":"PitLane","position":[-1204.59705,-2092.63501,437.975403],"rotationMatrix":[0.700539947,0.713612974,0,-0.713338196,0.700270236,-0.0277468786,-0.0198006015,0.0194377881,0.999614835]}
+{"name":"pitLaneMeComputer_area","class":"BeamNGGameplayArea","__parent":"PitLane","position":[-1204.58948,-2092.63794,437.975525],"rotationMatrix":[0.700539947,0.713612974,0,-0.713338196,0.700270236,-0.0277468786,-0.0198006015,0.0194377881,0.999614835],"scale":[2.06263781,1.62975883,2.60174465]}

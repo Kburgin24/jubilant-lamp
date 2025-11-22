@@ -1,0 +1,60 @@
+{
+  "ks_nord_bridges": {
+    "name": "ks_nord_bridges",
+    "mapTo": "bridges",
+    "class": "Material",
+    "persistentId": "9b48789c-dba5-4cb4-9978-afb738d23a71",
+    "Stages": [
+      {
+        "colorMap": "/levels/ks_nord/bridges.dds",
+        "diffuseColor": [
+          0.851918995,
+          0.851911008,
+          0.851911008,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  "ks_nord_plankbase": {
+    "name": "ks_nord_plankbase",
+    "mapTo": "plankbase",
+    "class": "Material",
+    "persistentId": "04ec19fa-0756-4b1a-8fbf-0565af79994c",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.78281498,
+          0.782806993,
+          0.782806993,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/plankbase.dds",
+        "detailMap": "/levels/ks_nord/plank-detail1.dds",
+        "detailScale": [
+          12,
+          1
+        ],
+        "roughnessFactor": 0.916999996
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "tirewall": {
+    "name": "tirewall",
+    "mapTo": "tirewall",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  }
+}

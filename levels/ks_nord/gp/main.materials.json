@@ -1,0 +1,1688 @@
+{
+  "gp_Material__0": {
+    "name": "gp_Material__0",
+    "mapTo": "Material__0",
+    "class": "material",
+    "persistentId": "f2844cce-0036-4a02-b3ac-bfecaf83e380",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/BBgrass8.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 165,
+    "alphaTest": true,
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_SAND_new": {
+    "name": "gp_SAND_new",
+    "mapTo": "SAND_new",
+    "class": "Material",
+    "persistentId": "98c7ddf9-1bf0-4cbd-8a15-32a1c958e73d",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.570564985,
+          0.542073011,
+          0.44946301,
+          1
+        ],
+        "baseColorMap": "levels/ks_nord/gp/sand_base.dds",
+        "detailMap": "/levels/ks_nord/gp/trap_detail.dds",
+        "detailNormalMap": "/levels/ks_nord/gp/trap_detail_NM1.dds",
+        "detailScale": [
+          32,
+          32
+        ],
+        "normalMap": "/levels/ks_nord/gp/sand_base_NM.png",
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_Vehicles": {
+    "name": "gp_Vehicles",
+    "mapTo": "Vehicles",
+    "class": "material",
+    "persistentId": "50c52e66-52ed-42ca-9256-06fe16f2cb53",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/Vehicles_D.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_add": {
+    "name": "gp_add",
+    "mapTo": "add",
+    "class": "material",
+    "persistentId": "7f2be9f0-5786-4fbc-9789-a7dac1db7b33",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/add.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_adv": {
+    "name": "gp_adv",
+    "mapTo": "adv",
+    "class": "material",
+    "persistentId": "72d069f5-a6f3-47d7-9bb3-f431a30564b8",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/adv.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_armco": {
+    "name": "gp_armco",
+    "mapTo": "armco",
+    "class": "Material",
+    "persistentId": "d2025a60-58c4-45e7-9adb-d2ea08d9537e",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.516269028,
+          0.516264021,
+          0.516264021,
+          1
+        ],
+        "baseColorMap": "levels/ks_nord/gp/armco.dds",
+        "metallicFactor": 0.56400001,
+        "metallicMap": "/levels/ks_nord/gp/armco_map.dds",
+        "normalMap": "/levels/ks_nord/gp/armco_nm.dds",
+        "roughnessFactor": 0.665000021,
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_asph_ext": {
+    "name": "gp_asph_ext",
+    "mapTo": "asph_ext",
+    "class": "Material",
+    "persistentId": "c25b22ef-7426-4c99-9a0f-02c67ba71bbe",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/ks_nord/gp/asph_ext_.dds",
+        "baseColorFactor": [
+          0.175683007,
+          0.175680995,
+          0.175680995,
+          1
+        ],
+        "detailMap": "/levels/ks_nord/tarmac-detail3c.dds",
+        "detailNormalMap": "/levels/ks_nord/tarmac-detail3_nmbc.dds",
+        "detailScale": [
+          256,
+          256
+        ],
+        "normalMap": "/vehicles/common/null_n.dds",
+        "roughnessFactor": 0.907999992,
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "roughnessFactor": null,
+        "specular": null
+      }
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_asph_ext_2": {
+    "name": "gp_asph_ext_2",
+    "mapTo": "asph_ext_2",
+    "class": "material",
+    "persistentId": "37a37b19-f6c1-4c03-ba03-54a27690ca43",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/terrain_ext2.dds",
+        "diffuseColor": [
+          0.450980425,
+          0.450980425,
+          0.450980425,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_asph_green": {
+    "name": "gp_asph_green",
+    "mapTo": "asph_green",
+    "class": "Material",
+    "persistentId": "0bce668f-01aa-4bbd-bc22-a1a6f8b34257",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.288592011,
+          0.501461029,
+          0.444557011,
+          1
+        ],
+        "baseColorMap": "levels/ks_nord/gp/asph-green-b.dds",
+        "pixelSpecular": true,
+        "roughnessMap": "/levels/ks_nord/gp/asph-green-b.dds",
+        "specular": [
+          0.576470613,
+          0.576470613,
+          0.576470613,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_asphalt_": {
+    "name": "gp_asphalt_",
+    "mapTo": "asphalt-",
+    "class": "Material",
+    "persistentId": "8b82149d-6de7-4124-91d3-2f6fab94e14e",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.363252014,
+          0.363249004,
+          0.363249004,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/asphGP_pbr.dds",
+        "clearCoatFactor": 1,
+        "clearCoatRoughnessFactor": 0.939999998,
+        "detailMap": "/levels/ks_nord/tarmac-detail3c.dds",
+        "detailNormalMap": "/levels/ks_nord/tarmac-detail3_nmbc.dds",
+        "detailScale": [
+          100,
+          200
+        ],
+        "normalMap": "/vehicles/common/null_n.dds",
+        "roughnessMap": "/levels/ks_nord/gp/asphgp_rough200.dds",
+        "specular": [
+          0.48627454,
+          0.48627454,
+          0.48627454,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_bbgrass_b": {
+    "name": "gp_bbgrass_b",
+    "mapTo": "bbgrass-b",
+    "class": "material",
+    "persistentId": "75f3c139-e5b6-4bf9-aa7a-4fd4cc848057",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/BBgrass-b.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 81,
+    "alphaTest": true,
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0
+  },
+  "gp_bord_add": {
+    "name": "gp_bord_add",
+    "mapTo": "bord_add",
+    "class": "material",
+    "persistentId": "e7d868fa-4895-4ac6-a1c2-8a7f214926a2",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/bord_add1.dds",
+        "diffuseColor": [
+          0.71864599,
+          0.718639016,
+          0.718639016,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      }
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "gp_box": {
+    "name": "gp_box",
+    "mapTo": "box",
+    "class": "Material",
+    "persistentId": "e10450dd-636b-4cf8-a28c-bf642ca62f57",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.664349973,
+          0.664342999,
+          0.664342999,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/box-ext_srgb.dds",
+        "roughnessMap": "/levels/ks_nord/gp/box-ext-rough.dds",
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "invertBackFaceNormals": true,
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_box_alpha_spec": {
+    "name": "gp_box_alpha_spec",
+    "mapTo": "box-alpha-spec",
+    "class": "Material",
+    "persistentId": "82e3c6be-0d6c-49d7-8418-43aaa0f7a498",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.506397009,
+          0.506392002,
+          0.506392002,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/box-ext_noaplh.dds",
+        "roughnessMap": "/levels/ks_nord/gp/box-ext-rough.dds",
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_carpet": {
+    "name": "gp_carpet",
+    "mapTo": "carpet",
+    "class": "Material",
+    "persistentId": "8974dcaf-667b-455a-91af-1174e4e69b7a",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.195186004,
+          0.397803992,
+          0.00705299992,
+          1
+        ],
+        "baseColorMap": "levels/ks_nord/gp/carpet.dds",
+        "detailMap": "/levels/ks_nord/gp/carpet-det.dds",
+        "detailNormalMap": "/levels/ks_nord/gp/carpet-det_NM.dds",
+        "detailScale": [
+          1,
+          40
+        ],
+        "normalMap": "/vehicles/common/null_n.dds",
+        "roughnessMap": "/levels/ks_nord/gp/carpet-rough.dds",
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_curb_misc_new": {
+    "name": "gp_curb_misc_new",
+    "mapTo": "curb_misc_new",
+    "class": "Material",
+    "persistentId": "dd752e0a-aaf6-4004-8a41-3310e8c304d6",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          0.999989986,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/curbs_misc_new_srgb.dds",
+        "metallicFactor": 1,
+        "metallicMap": "/levels/ks_nord/gp/curbs_misc_new_metal.dds",
+        "normalMap": "/levels/ks_nord/gp/curbs_misc_new_NM.dds",
+        "roughnessMap": "/levels/ks_nord/gp/curbs_misc_new_rough.dds",
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_curb_new": {
+    "name": "gp_curb_new",
+    "mapTo": "curb-new",
+    "class": "Material",
+    "persistentId": "f1d08ae8-a99b-4653-aac2-b3061a917b3e",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.575501978,
+          0.575496018,
+          0.575496018,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/curb2015_srgb.dds",
+        "normalMap": "levels/ks_nord/gp/curb2015_NM.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.744000018,
+        "specular": [
+          0.43921572,
+          0.43921572,
+          0.43921572,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_external": {
+    "name": "gp_external",
+    "mapTo": "external",
+    "class": "Material",
+    "persistentId": "1ab51ee6-6aa9-44c4-a828-707345a6e0d6",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.358316004,
+          0.358312994,
+          0.358312994,
+          1
+        ],
+        "baseColorMap": "levels/ks_nord/gp/external3.dds",
+        "detailMap": "/levels/ks_nord/t13-det.dds",
+        "detailScale": [
+          200,
+          20
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": [
+          0.501461029,
+          0.501456022,
+          0.501456022,
+          1
+        ],
+        "detailMap": "/levels/ks_nord/gp/grass9-srgb.dds",
+        "opacityMap": "/levels/ks_nord/gp/external_R.dds"
+      },
+      {
+        "baseColorFactor": [
+          0.540948987,
+          0.54094398,
+          0.54094398,
+          1
+        ],
+        "detailMap": "/levels/ks_nord/sbancamento_Csrgb.dds",
+        "opacityMap": "/levels/ks_nord/gp/external_G.dds"
+      },
+      {
+        "baseColorFactor": [
+          0.461973011,
+          0.461968005,
+          0.461968005,
+          1
+        ],
+        "detailMap": "/levels/ks_nord/gp/grass9-srgb.dds",
+        "opacityMap": "/levels/ks_nord/gp/external_B.dds"
+      }
+    ],
+    "activeLayers": 3,
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_fence": {
+    "name": "gp_fence",
+    "mapTo": "fence",
+    "class": "material",
+    "persistentId": "aa79b49a-c8ca-4b08-ae40-eb2991ef94b8",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/fence.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ],
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 60,
+    "alphaTest": true,
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_flag7": {
+    "name": "gp_flag7",
+    "mapTo": "flag7",
+    "class": "material",
+    "persistentId": "d9f15243-dadd-4972-aaa2-341d1d2f764a",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/flag_7.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_flag8": {
+    "name": "gp_flag8",
+    "mapTo": "flag8",
+    "class": "material",
+    "persistentId": "aadd5110-cc48-49eb-a0aa-9fc635c63019",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/flag_8b.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_flag9": {
+    "name": "gp_flag9",
+    "mapTo": "flag9",
+    "class": "material",
+    "persistentId": "550aa57d-7ad4-4678-8c7d-9acdb607b2f4",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/flag_9.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_grass": {
+    "name": "gp_grass",
+    "mapTo": "grass",
+    "class": "Material",
+    "persistentId": "1683bfe5-c827-4bb6-9df0-5285e6c7ad10",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.343508005,
+          0.343504995,
+          0.343504995,
+          1
+        ],
+        "detailMap": "/levels/ks_nord/gp/grass-detail18-srgb.dds",
+        "detailScale": [
+          50,
+          50
+        ],
+        "normalMap": "/levels/ks_nord/gp/grass_NM_3_low.dds",
+        "roughnessFactor": 0.976000011,
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": [
+          0.457037002,
+          0.457031995,
+          0.457031995,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/grass3B2.dds",
+        "detailMap": "/levels/ks_nord/gp/grass9-srgb.dds",
+        "detailScale": [
+          18,
+          18
+        ],
+        "opacityMap": "/levels/ks_nord/gp/grass-maskG.dds",
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": [
+          0.516269028,
+          0.516264021,
+          0.516264021,
+          1
+        ],
+        "detailMap": "/levels/ks_nord/sbancamento_Csrgb.dds",
+        "detailNormalMap": "/levels/ks_nord/grass-side-NM.dds",
+        "detailScale": [
+          20,
+          20
+        ],
+        "normalMap": "/vehicles/common/null_n.dds",
+        "opacityMap": "/levels/ks_nord/gp/grass-maskB.dds",
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": [
+          0.5804380179999999,
+          0.580431998,
+          0.580431998,
+          1
+        ],
+        "detailScale": null,
+        "roughnessFactor": null,
+        "specular": null
+      }
+    ],
+    "activeLayers": 3,
+    "materialTag0": "Miscellaneous",
+    "subSurface1": "0",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_grs_brd": {
+    "name": "gp_grs_brd",
+    "mapTo": "grs_brd",
+    "class": "Material",
+    "persistentId": "7bfb7af6-0bdb-463a-a33a-1f9e0875f6a5",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.435811996,
+          0.526140988,
+          0.276825011,
+          1
+        ],
+        "baseColorMap": "levels/ks_nord/gp/grass-brd3-F.dds",
+        "opacityMap": "/levels/ks_nord/gp/grass-brd3-opac.dds",
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 83,
+    "materialTag0": "Miscellaneous",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "gp_gstands": {
+    "name": "gp_gstands",
+    "mapTo": "gstands",
+    "class": "material",
+    "persistentId": "79f7bc3c-84c7-4d7a-a3cc-c8f0ced562d4",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/gstands2.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_gstands_alpha": {
+    "name": "gp_gstands_alpha",
+    "mapTo": "gstands-alpha",
+    "class": "material",
+    "persistentId": "3108c0a1-c3d2-42cc-beb1-49730b24412b",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/gstands2.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ],
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 63,
+    "alphaTest": true,
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_gstands_alpha_blend": {
+    "name": "gp_gstands_alpha_blend",
+    "mapTo": "gstands-alpha_blend",
+    "class": "material",
+    "persistentId": "572db23e-f8f8-4dd6-b1a0-9edb42a83280",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/gstands2.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "materialTag0": "Miscellaneous",
+    "order_simset": 1037690929,
+    "translucent": true
+  },
+  "gp_misc": {
+    "name": "gp_misc",
+    "mapTo": "misc",
+    "class": "material",
+    "persistentId": "aa5a809f-972e-43c1-a701-c370894fa03b",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/misc.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "order_simset": -65005,
+    "translucentBlendOp": "None"
+  },
+  "gp_misc_add": {
+    "name": "gp_misc_add",
+    "mapTo": "misc_add",
+    "class": "material",
+    "persistentId": "e0ebe18b-6336-4661-a40b-edd2be9bedb7",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/misc_add.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_misc_alpha": {
+    "name": "gp_misc_alpha",
+    "mapTo": "misc-alpha",
+    "class": "Material",
+    "persistentId": "1579758e-5411-457e-9c3f-0b786bca64ec",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/misc.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      }
+    ],
+    "alphaRef": 56,
+    "alphaTest": true,
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None"
+  },
+  "gp_objects": {
+    "name": "gp_objects",
+    "mapTo": "objects",
+    "class": "material",
+    "persistentId": "4421fbc7-2133-4e63-8877-ea12fa98b778",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/objects1.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_panel_new": {
+    "name": "gp_panel_new",
+    "mapTo": "panel_new",
+    "class": "material",
+    "persistentId": "22723b61-02db-4eb2-a4b5-5049ad1cb2bb",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/panel_new.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_people_stand": {
+    "name": "gp_people_stand",
+    "mapTo": "people_stand",
+    "class": "material",
+    "persistentId": "afcebbba-5515-4ae9-a024-6ffe34dbff9b",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/people_stand.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 52,
+    "alphaTest": true,
+    "materialTag0": "Miscellaneous",
+    "order_simset": -65081,
+    "translucentBlendOp": "None"
+  },
+  "gp_pitlane_alpha": {
+    "name": "gp_pitlane_alpha",
+    "mapTo": "pitlane-alpha",
+    "class": "material",
+    "persistentId": "35453933-0345-4788-b319-e69a55f666e1",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/pitlane2.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ],
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 81,
+    "alphaTest": true,
+    "order_simset": -64519
+  },
+  "gp_pitlane_alphaTS": {
+    "name": "gp_pitlane_alphaTS",
+    "mapTo": "pitlane-alphaTS",
+    "class": "material",
+    "persistentId": "9baf2563-eb3b-48e3-b28c-9b0e7c791cd0",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/pitlane.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ],
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 95,
+    "alphaTest": true,
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_pitlane_multilayer": {
+    "name": "gp_pitlane_multilayer",
+    "mapTo": "pitlane-multilayer",
+    "class": "Material",
+    "persistentId": "985a675c-96ae-49a1-b251-fdef1871da70",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.570564985,
+          0.570559978,
+          0.570559978,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/pitlane2_srgb.dds",
+        "detailMap": "/levels/ks_nord/gp/metal-detail.dds",
+        "detailScale": null,
+        "metallicFactor": 0.372999996,
+        "opacityMap": "/levels/ks_nord/gp/pitlane_mask_R.dds",
+        "roughnessFactor": 0.921000004,
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": [
+          0.600181997,
+          0.600175977,
+          0.600175977,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/pitlane2_srgb.dds",
+        "detailMap": "/levels/ks_nord/gp/concrete_detail_alph.dds",
+        "detailScale": [
+          16,
+          32
+        ],
+        "metallicFactor": null,
+        "opacityMap": "/levels/ks_nord/gp/pitlane_mask_A.dds",
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": [
+          0.363252014,
+          0.363249004,
+          0.363249004,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/pitlane2_srgb.dds",
+        "detailMap": "/levels/ks_nord/tarmac-detail3clbc.dds",
+        "detailScale": [
+          128,
+          128
+        ],
+        "metallicFactor": null,
+        "opacityMap": "/levels/ks_nord/gp/pitlane_mask_B.dds",
+        "roughnessFactor": 0.935000002,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "metallicFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      }
+    ],
+    "activeLayers": 3,
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_pitlane_multimap": {
+    "name": "gp_pitlane_multimap",
+    "mapTo": "pitlane-multimap",
+    "class": "material",
+    "persistentId": "d9aa75fc-90a4-4c04-aae8-c09324419970",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/pitlane.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ],
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": -64495,
+    "translucentBlendOp": "None"
+  },
+  "gp_pitlane_multimap2": {
+    "name": "gp_pitlane_multimap2",
+    "mapTo": "pitlane-multimap2",
+    "class": "material",
+    "persistentId": "f4be4724-6813-48bb-b7fa-e31c2ccdb605",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/pitlane.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ],
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_posiz": {
+    "name": "gp_posiz",
+    "mapTo": "posiz",
+    "class": "Material",
+    "persistentId": "764eafae-a2c6-495f-b5b0-5ca50a4d877f",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/pos.dds",
+        "diffuseColor": [
+          0.719345987,
+          0.719345987,
+          0.719345987,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      },
+      {
+        "diffuseColor": null,
+        "specular": null
+      }
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucent": true
+  },
+  "gp_sbanc_c": {
+    "name": "gp_sbanc_c",
+    "mapTo": "sbanc_c",
+    "class": "Material",
+    "persistentId": "6d60db1a-2be0-42ab-8735-8cc234a74027",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/ks_nord/gp/Terrain_ext.dds",
+        "ambientOcclusionMapUseUV": 1,
+        "baseColorFactor": [
+          0.521205008,
+          0.521200001,
+          0.521200001,
+          1
+        ],
+        "detailMap": "/levels/ks_nord/sbancamento_Csrgb.dds",
+        "detailScale": [
+          75,
+          75
+        ],
+        "opacityMap": "/levels/ks_nord/gp/terrain-ext_R.dds",
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "ambientOcclusionMap": "/levels/ks_nord/gp/Terrain_ext.dds",
+        "ambientOcclusionMapUseUV": 1,
+        "baseColorFactor": [
+          0.511332989,
+          0.511327982,
+          0.511327982,
+          1
+        ],
+        "detailMap": "/levels/ks_nord/gp/grass9-srgb.dds",
+        "detailScale": [
+          72,
+          72
+        ],
+        "opacityMap": "/levels/ks_nord/gp/terrain-ext_G.dds",
+        "specular": null
+      },
+      {
+        "ambientOcclusionMapUseUV": null,
+        "baseColorFactor": null,
+        "detailScale": null,
+        "specular": null
+      },
+      {
+        "ambientOcclusionMapUseUV": null,
+        "baseColorFactor": null,
+        "detailScale": null,
+        "specular": null
+      }
+    ],
+    "activeLayers": 2,
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_structures": {
+    "name": "gp_structures",
+    "mapTo": "structures",
+    "class": "material",
+    "persistentId": "24950aee-a9a9-4c3e-8a2c-45dcd6c88d5e",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/structures.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_travr": {
+    "name": "gp_travr",
+    "mapTo": "travr",
+    "class": "Material",
+    "persistentId": "d480e24e-b177-4d13-bcdf-a7d11defdeed",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.501461029,
+          0.501456022,
+          0.501456022,
+          1
+        ],
+        "baseColorMap": "/levels/ks_nord/gp/travr_srgb.dds",
+        "metallicFactor": 0.0130000003,
+        "normalMap": "levels/ks_nord/gp/travr_NM.dds",
+        "roughnessMap": "/levels/ks_nord/gp/travr_rough.dds",
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "specular": null
+      }
+    ],
+    "materialTag0": "Miscellaneous",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "gp_trees": {
+    "name": "gp_trees",
+    "mapTo": "trees",
+    "class": "material",
+    "persistentId": "c7f919f4-ab84-4ccc-8db0-4e35aeb18c96",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/treesline_B.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 75,
+    "alphaTest": true,
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_tyres": {
+    "name": "gp_tyres",
+    "mapTo": "tyres",
+    "class": "material",
+    "persistentId": "dfa2c9e9-8433-4fb9-b816-299305c2a05d",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/tyres.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  },
+  "gp_tyres_add": {
+    "name": "gp_tyres_add",
+    "mapTo": "tyres_add",
+    "class": "material",
+    "persistentId": "6583e346-67bc-4489-aba8-94d2ec8eda26",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          9.99999997e-7,
+          9.99999997e-7,
+          9.99999997e-7,
+          1
+        ],
+        "opacityMap": "levels/ks_nord/gp/tyres_add1_op.dds",
+        "roughnessFactor": 0.824000001,
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      }
+    ],
+    "castShadows": false,
+    "materialTag0": "Miscellaneous",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "gp_tyres_add2": {
+    "name": "gp_tyres_add2",
+    "mapTo": "tyres_add2",
+    "class": "material",
+    "persistentId": "8d096faa-8265-49b4-a45d-68376de836be",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          9.99999997e-7,
+          9.99999997e-7,
+          9.99999997e-7,
+          1
+        ],
+        "baseColorMap": "levels/ks_nord/gp/tyres_add1.dds",
+        "opacityMap": "/levels/ks_nord/gp/tyres_add2_op.dds",
+        "roughnessFactor": 0.871999979,
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      }
+    ],
+    "castShadows": false,
+    "materialTag0": "Miscellaneous",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "gp_window_nw": {
+    "name": "gp_window_nw",
+    "mapTo": "window_nw",
+    "class": "material",
+    "persistentId": "d2c34c3f-275e-4fa4-b172-d5b4fea00a1e",
+    "Stages": [
+      {
+        "colorMap": "levels/ks_nord/gp/window1.dds",
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "specular": [
+          0.200000003,
+          0.200000003,
+          0.200000003,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "Miscellaneous",
+    "order_simset": 0,
+    "translucentBlendOp": "None"
+  }
+}

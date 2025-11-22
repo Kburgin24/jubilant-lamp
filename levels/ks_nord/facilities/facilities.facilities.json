@@ -1,0 +1,129 @@
+{
+  "computers":[
+    {
+      "activityAcceptProps":[
+        {
+          "keyLabel":"Vehicle & Parts Management"
+        },
+        {
+          "keyLabel":"Vehicle & Parts Shopping"
+        }
+      ],
+      "description":"ui.career.computer.bigmapLabel.garage",
+      "doors":[
+        [
+          "pitLaneMeComputer_area",
+          "pitLaneMeComputer_icon"
+        ]
+      ],
+      "functions":{
+        "insurancePolicies":true,
+        "painting":true,
+        "partInventory":true,
+        "partShop":true,
+        "sleep":true,
+        "tuning":true,
+        "vehicleInventory":true,
+        "vehicleShop":true
+      },
+      "garageId":"pitLaneMe",
+      "icon":"poi_laptop_round",
+      "iconLift":0.24,
+      "iconOffsetHeight":0.24,
+      "id":"uncleGarageComputer_area",
+      "name":"Pit Box 4",
+      "preview":"pit_lane.jpg",
+      "screens":[
+        "commercialGarageComputer_screen_2"
+      ]
+    }
+  ],
+  "garages":[
+    {
+      "capacity":3,
+      "defaultPrice":65000,
+      "description":"",
+      "icon":"poi_garage_2_round",
+      "id":"pitLaneMe",
+      "name":"Pit Box 4",
+      "parkingSpotNames":[
+        "pitLaneMeParking1",
+        "pitLaneMeParking2"
+      ],
+      "preview":"pit_lane.jpg",
+      "starterGarage":true,
+      "tags":[
+        "race"
+      ],
+      "zoneNames":[
+        "pitLaneMe"
+      ]
+    }
+  ],
+   "gasStations":[
+    {
+      "id":"NurFuel",
+      "name":"NürFuel",
+      "description":"Where every lap begins with pure power.",
+      "preview":"NurFuel.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "prices":{
+        "diesel":{
+          "priceBaseline":10.53,
+          "priceRandomnessBias":0.2,
+          "priceRandomnessGain":0.1,
+          "us_9_10_tax":true
+        },
+        "gasoline":{
+          "priceBaseline":10.37,
+          "priceRandomnessBias":0.2,
+          "priceRandomnessGain":0.1,
+          "us_9_10_tax":true
+        }
+      },
+      "pumps":[
+        ["t13_fuel_station_area1", "t13_fuel_station_icon1"],
+        ["t13_fuel_station_area2", "t13_fuel_station_icon2"]
+      ]
+    },
+    {
+      "id":"pitStop24",
+      "name":"PitStop 24",
+      "description":"Your pit stop for ultimate track energy.",
+      "preview":"pitStopsFuel.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "prices":{
+        "diesel":{
+          "priceBaseline":10.53,
+          "priceRandomnessBias":0.2,
+          "priceRandomnessGain":0.1,
+          "us_9_10_tax":true
+        },
+        "gasoline":{
+          "priceBaseline":10.37,
+          "priceRandomnessBias":0.2,
+          "priceRandomnessGain":0.1,
+          "us_9_10_tax":true
+        }
+      },
+      
+      "pumps":[
+        ["gp_fuel_station_area1", "gp_fuel_station_icon1"],
+        ["gp_fuel_station_area2", "gp_fuel_station_icon2"],
+        ["gp_fuel_station_area3", "gp_fuel_station_icon3"],
+        ["gp_fuel_station_area4", "gp_fuel_station_icon4"],
+        ["gp_fuel_station_area5", "gp_fuel_station_icon5"],
+        ["gp_fuel_station_area6", "gp_fuel_station_icon6"],
+        ["gp_fuel_station_area7", "gp_fuel_station_icon7"],
+        ["gp_fuel_station_area8", "gp_fuel_station_icon8"],
+        ["gp_fuel_station_area9", "gp_fuel_station_icon9"],
+        ["gp_fuel_station_area10", "gp_fuel_station_icon10"],
+        ["gp_fuel_station_area11", "gp_fuel_station_icon11"],
+        ["gp_fuel_station_area12", "gp_fuel_station_icon12"],
+        ["gp_fuel_station_area13", "gp_fuel_station_icon13"],
+        ["gp_fuel_station_area14", "gp_fuel_station_icon14"],
+        ["gp_fuel_station_area15", "gp_fuel_station_icon15"]
+      ]
+    }
+  ]
+}

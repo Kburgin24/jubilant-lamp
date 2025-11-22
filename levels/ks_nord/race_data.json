@@ -1,0 +1,202 @@
+{
+  "races":{
+    "Tourist":{
+      "apexOffset":1,
+      "bestTime":510,
+      "checkpointIndexs":[
+        23,
+        27,
+        31,
+        38,
+        62,
+        74,
+        79,
+        84,
+        87,
+        105,
+        107,
+        110,
+        118,
+        123,
+        153,
+        160,
+        172,
+        328,
+        363,
+        387,
+        393,
+        406,
+        416
+      ],
+      "checkpointRoad":[
+        "Touristroad"
+      ],
+      "hotlap":500,
+      "label":"Touristenfahrten",
+      "reward":15000,
+      "runningStart":false,
+      "type":[
+        "motorsport",
+        "apexRacing"
+      ]
+    },
+    "TouristBridge":{
+      "apexOffset":1,
+      "bestTime":440,
+      "checkpointIndexs":[
+        23,
+        27,
+        31,
+        38,
+        62,
+        74,
+        79,
+        84,
+        87,
+        105,
+        107,
+        110,
+        118,
+        123,
+        153,
+        160,
+        172,
+        328,
+        363,
+        387,
+        393,
+        406,
+        416
+      ],
+      "checkpointRoad":[
+        "Touristroad"
+      ],
+      "hotlap":415,
+      "label":"Touristenfahrten - Lap starts at the bridge",
+      "reward":15000,
+      "runningStart":false,
+      "rollingStart": {
+        "paceSpeed": 0,
+        "speedUnit": "KPH"
+      },
+      "type":[
+        "motorsport",
+        "apexRacing"
+      ]
+    },
+      "gpTrack": {
+      "apexOffset":1,
+      "label": "Nürburgring GP / 24h",
+      "bestTime": 145,
+      "checkpointRoad": ["nur24hgproad"],
+      "altRoute": {
+        "altInfo": "Go Left for 24h layout - Stay straight to keep running the GP layout.",
+        "bestTime":620,
+        "checkpointRoad": ["nur24hnordroad"],
+        "hotlap":615,
+        "label":"Nürburgring 24h",
+        "checkpointIndexs": [
+          4,
+          10,
+          13,
+          18,
+          26,
+          34,
+          44,
+          49,
+          57,
+          64,
+          66,
+          68,
+          74,
+          80,
+          86,
+          110,
+          121,
+          126,
+          199,
+          203,
+          207,
+          217,
+          221,
+          375,
+          409,
+          453,
+          509,
+          527,
+          534,
+          547
+        ],
+        "mergeCheckpoints": [ 101, 1 ],
+        "reward": 25000
+        },
+      "checkpointIndexs": [
+      5,
+      8,
+      10,
+      14,
+      25,
+      33,
+      41,
+      49,
+      60,
+      65,
+      71,
+      76,
+      79,
+      87
+      ],
+      "forks": [
+        {
+            "atMainIndex": 2,
+            "mainChoiceIndex": 3,
+            "altChoiceIndex": 1
+        }
+        ],
+      "hotlap":140,
+      "reward": 5500,
+      "runningStart":false,
+      "type": ["endurance", "race", "apexRacing"]
+    },
+    "Nordschleife":{
+      "apexOffset":1,
+      "bestTime":510,
+      "checkpointIndexs":[
+        38,
+        62,
+        74,
+        79,
+        84,
+        87,
+        105,
+        107,
+        110,
+        118,
+        123,
+        153,
+        160,
+        172,
+        328,
+        363,
+        387,
+        393,
+        406,
+        416,
+        24,
+        27,
+        31
+      ],
+      "checkpointRoad":[
+        "Nordschleiferoad"
+      ],
+      "hotlap":500,
+      "label":"Nordschleife - T13 Start",
+      "reward":17000,
+      "runningStart":true,
+      "type":[
+        "motorsport",
+        "apexRacing"
+      ]
+    }
+  }
+}

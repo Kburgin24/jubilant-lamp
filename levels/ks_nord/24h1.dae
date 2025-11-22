@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.0 commit date:2025-07-14, commit time:17:45, hash:8cb6b388974a</authoring_tool>
+    </contributor>
+    <created>2025-10-18T00:48:05</created>
+    <modified>2025-10-18T00:48:05</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="jersey-effect">
+      <profile_COMMON>
+        <newparam sid="Fiberglass_detail_dds-surface">
+          <surface type="2D">
+            <init_from>Fiberglass_detail_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Fiberglass_detail_dds-sampler">
+          <sampler2D>
+            <source>Fiberglass_detail_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="Fiberglass_detail_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tyres-effect">
+      <profile_COMMON>
+        <newparam sid="tyres_dds-surface">
+          <surface type="2D">
+            <init_from>tyres_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tyres_dds-sampler">
+          <sampler2D>
+            <source>tyres_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tyres_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="MB_Sprinter_2014-effect">
+      <profile_COMMON>
+        <newparam sid="amb_dds-surface">
+          <surface type="2D">
+            <init_from>amb_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="amb_dds-sampler">
+          <sampler2D>
+            <source>amb_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="amb_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="armco-effect">
+      <profile_COMMON>
+        <newparam sid="metal-detail_dds-surface">
+          <surface type="2D">
+            <init_from>metal-detail_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="metal-detail_dds-sampler">
+          <sampler2D>
+            <source>metal-detail_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="metal-detail_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="null-effect">
+      <profile_COMMON>
+        <newparam sid="NULL_dds-surface">
+          <surface type="2D">
+            <init_from>NULL_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="NULL_dds-sampler">
+          <sampler2D>
+            <source>NULL_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="NULL_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tyrewall_002-effect">
+      <profile_COMMON>
+        <newparam sid="barriers_albedo_dds-surface">
+          <surface type="2D">
+            <init_from>barriers_albedo_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="barriers_albedo_dds-sampler">
+          <sampler2D>
+            <source>barriers_albedo_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="barriers_albedo_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="marshall-effect">
+      <profile_COMMON>
+        <newparam sid="commissario_NEW_dds-surface">
+          <surface type="2D">
+            <init_from>commissario_NEW_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="commissario_NEW_dds-sampler">
+          <sampler2D>
+            <source>commissario_NEW_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="commissario_NEW_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tents-effect">
+      <profile_COMMON>
+        <newparam sid="tents_dds-surface">
+          <surface type="2D">
+            <init_from>tents_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tents_dds-sampler">
+          <sampler2D>
+            <source>tents_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tents_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="objects-effect">
+      <profile_COMMON>
+        <newparam sid="objects1_dds-surface">
+          <surface type="2D">
+            <init_from>objects1_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="objects1_dds-sampler">
+          <sampler2D>
+            <source>objects1_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="objects1_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fence-effect">
+      <profile_COMMON>
+        <newparam sid="fence_dds-surface">
+          <surface type="2D">
+            <init_from>fence_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="fence_dds-sampler">
+          <sampler2D>
+            <source>fence_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="fence_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="misc-alpha-effect">
+      <profile_COMMON>
+        <newparam sid="misc_dds-surface">
+          <surface type="2D">
+            <init_from>misc_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="misc_dds-sampler">
+          <sampler2D>
+            <source>misc_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="misc_dds-sampler" texcoord="layout_24h-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="Fiberglass_detail_dds" name="Fiberglass_detail_dds">
+      <init_from>Fiberglass_detail.dds</init_from>
+    </image>
+    <image id="NULL_dds" name="NULL_dds">
+      <init_from>NULL.dds</init_from>
+    </image>
+    <image id="amb_dds" name="amb_dds">
+      <init_from>amb.dds</init_from>
+    </image>
+    <image id="barriers_albedo_dds" name="barriers_albedo_dds">
+      <init_from>barriers_albedo.dds</init_from>
+    </image>
+    <image id="commissario_NEW_dds" name="commissario_NEW_dds">
+      <init_from>commissario_NEW.dds</init_from>
+    </image>
+    <image id="fence_dds" name="fence_dds">
+      <init_from>fence.dds</init_from>
+    </image>
+    <image id="metal-detail_dds" name="metal-detail_dds">
+      <init_from>metal-detail.dds</init_from>
+    </image>
+    <image id="misc_dds" name="misc_dds">
+      <init_from>misc.dds</init_from>
+    </image>
+    <image id="objects1_dds" name="objects1_dds">
+      <init_from>objects1.dds</init_from>
+    </image>
+    <image id="tents_dds" name="tents_dds">
+      <init_from>tents.dds</init_from>
+    </image>
+    <image id="tyres_dds" name="tyres_dds">
+      <init_from>tyres.dds</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="jersey-material" name="jersey">
+      <instance_effect url="#jersey-effect"/>
+    </material>
+    <material id="tyres-material" name="tyres">
+      <instance_effect url="#tyres-effect"/>
+    </material>
+    <material id="MB_Sprinter_2014-material" name="MB_Sprinter_2014">
+      <instance_effect url="#MB_Sprinter_2014-effect"/>
+    </material>
+    <material id="armco-material" name="armco">
+      <instance_effect url="#armco-effect"/>
+    </material>
+    <material id="null-material" name="null">
+      <instance_effect url="#null-effect"/>
+    </material>
+    <material id="tyrewall_002-material" name="tyrewall.002">
+      <instance_effect url="#tyrewall_002-effect"/>
+    </material>
+    <material id="marshall-material" name="marshall">
+      <instance_effect url="#marshall-effect"/>
+    </material>
+    <material id="tents-material" name="tents">
+      <instance_effect url="#tents-effect"/>
+    </material>
+    <material id="objects-material" name="objects">
+      <instance_effect url="#objects-effect"/>
+    </material>
+    <material id="fence-material" name="fence">
+      <instance_effect url="#fence-effect"/>
+    </material>
+    <material id="misc-alpha-material" name="misc-alpha">
+      <instance_effect url="#misc-alpha-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="layout_24h_001-mesh" name="layout_24h.001">
+      <mesh>
+        <source id="layout_24h_001-mesh-positions">
+          <float_array id="layout_24h_001-mesh-positions-array" count="378">55.98828 0.3801947 8.26764 47.91223 -0.319993 6.058655 47.93127 0.573699 6.063782 55.96826 -0.5134058 8.26178 55.98633 0.4041967 8.276673 47.93127 0.573699 6.063782 47.92932 0.5977011 6.073791 55.98828 0.3801947 8.26764 47.92224 0.6076956 6.096741 55.98022 0.4141989 8.300599 55.98633 0.4041967 8.276673 47.92932 0.5977011 6.073791 55.80823 0.4141989 8.930726 47.92224 0.6076956 6.096741 47.74121 0.6076956 6.724426 55.98022 0.4141989 8.300599 55.80127 0.4041967 8.953675 47.74121 0.6076956 6.724426 47.73425 0.5977011 6.74762 55.80823 0.4141989 8.930726 55.79822 0.3801947 8.963685 47.73425 0.5977011 6.74762 47.73132 0.573699 6.756653 55.80127 0.4041967 8.953675 55.79822 0.3801947 8.963685 47.73132 0.573699 6.756653 47.71228 -0.3287058 6.75177 55.77832 -0.5222025 8.957581 39.22021 -0.1328058 3.411682 39.23132 0.7610998 3.414368 39.23132 0.7610998 3.414368 39.22925 0.7850103 3.424377 39.22229 0.7950964 3.447571 39.22925 0.7850103 3.424377 39.03723 0.7950049 4.073791 39.22229 0.7950964 3.447571 39.03027 0.7850103 4.096741 39.03723 0.7950049 4.073791 39.03027 0.7850103 4.096741 39.02624 0.7610006 4.10675 39.02624 0.7610006 4.10675 39.01526 -0.1416025 4.103577 13.54932 0.01079463 -3.957214 13.53931 0.9047003 -3.959412 13.53931 0.9047003 -3.959412 13.53821 0.9286947 -3.949402 13.53723 0.9386969 -3.925476 13.53821 0.9286947 -3.949402 13.50427 0.9373999 -3.254333 13.53723 0.9386969 -3.925476 13.5033 0.9273977 -3.229431 13.50427 0.9373999 -3.254333 13.5033 0.9273977 -3.229431 13.50232 0.9033957 -3.219421 13.50232 0.9033957 -3.219421 13.51221 5.94139e-4 -3.217224 0.7833252 0.5678015 -1.629333 0.8082275 -0.325799 -1.631287 0.7833252 0.5917959 -1.619324 0.7833252 0.5678015 -1.629333 0.7833252 0.5917959 -1.619324 0.7843018 0.6017981 -1.595642 0.7843018 0.6017981 -1.595642 0.8182373 0.6018972 -0.9371948 0.8182373 0.6018972 -0.9371948 0.8192139 0.5918951 -0.9132691 0.8192139 0.5918951 -0.9132691 0.8203125 0.5679007 -0.9032593 0.8203125 0.5679007 -0.9032593 0.8463135 -0.3345041 -0.9042358 -27.44373 -0.2621012 -3.803406 -27.41968 -1.155702 -3.802429 -27.4447 -0.238099 -3.794373 -27.44373 -0.2621012 -3.803406 -27.44666 -0.2281045 -3.770203 -27.4447 -0.238099 -3.794373 -27.48377 -0.2281045 -3.117371 -27.44666 -0.2281045 -3.770203 -27.48474 -0.238099 -3.093201 -27.48377 -0.2281045 -3.117371 -27.48474 -0.238099 -3.093201 -27.48474 -0.2621012 -3.083435 -27.48474 -0.2621012 -3.083435 -27.46069 -1.164399 -3.082214 -37.28772 -0.5075007 -4.170349 -37.26977 -1.4012 -4.170349 -37.28772 -0.5075007 -4.170349 -37.2887 -0.4834986 -4.160339 -37.2887 -0.4834986 -4.160339 -37.2887 -0.4735041 -4.136414 -37.2887 -0.4735041 -4.136414 -37.30078 -0.4735041 -3.483337 -37.30176 -0.4834986 -3.459412 -37.30078 -0.4735041 -3.483337 -37.30176 -0.4834986 -3.459412 -37.30078 -0.5075007 -3.449402 -37.30078 -0.5075007 -3.449402 -37.28271 -1.409989 -3.448425 -44.27075 -1.50599 -4.171326 -44.29773 -0.6124048 -4.169373 -44.29773 -0.5884028 -4.159363 -44.29773 -0.6124048 -4.169373 -44.29468 -0.5784006 -4.135437 -44.29773 -0.5884028 -4.159363 -44.21777 -0.5790033 -3.481384 -44.29468 -0.5784006 -4.135437 -44.21472 -0.5891047 -3.457214 -44.21777 -0.5790033 -3.481384 -44.21277 -0.6130991 -3.447205 -44.21472 -0.5891047 -3.457214 -44.18469 -1.515405 -3.450378 -44.21277 -0.6130991 -3.447205 -48.1947 -0.7991037 -3.231384 -48.26672 -1.691995 -3.215515 -48.19275 -0.7751017 -3.221374 -48.1947 -0.7991037 -3.231384 -48.19275 -0.7751017 -3.221374 -48.18774 -0.7650995 -3.197205 -48.18774 -0.7650995 -3.197205 -48.1477 -0.7650995 -2.536316 -48.1477 -0.7650995 -2.536316 -48.14172 -0.7751017 -2.513367 -48.13879 -0.7991037 -2.504333 -48.14172 -0.7751017 -2.513367 -48.13879 -0.7991037 -2.504333 -48.09778 -1.700799 -2.513367</float_array>
+          <technique_common>
+            <accessor source="#layout_24h_001-mesh-positions-array" count="126" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="layout_24h_001-mesh-normals">
+          <float_array id="layout_24h_001-mesh-normals-array" count="435">0.2638009 3.81247e-4 -0.9645771 0.277601 -3.86634e-4 -0.9606964 0.2775995 -4.04505e-4 -0.9606969 0.2637503 -6.13491e-5 -0.9645911 0.2517883 0.3844579 -0.8881412 0.2645232 0.3852671 -0.8840797 0.2645463 0.3852573 -0.8840771 0.2517877 0.3844836 -0.8881303 0.1264306 0.9232216 -0.3628737 0.1226432 0.9232617 -0.3640695 0.1225826 0.9232793 -0.364045 0.1217301 0.9222603 -0.3669031 0.1259265 0.9222069 -0.3656185 0.1255829 0.9222081 -0.3657336 0.02222651 0.9997325 0.006410121 0.02107119 0.9997595 0.006092548 0.02111685 0.9997584 0.00610733 0.02128469 0.9997551 0.006074607 0.02233886 0.999732 0.006097555 -0.08110517 0.9224693 0.3774551 -0.08753991 0.9226269 0.3756281 -0.08752423 0.9226489 0.3755778 -0.08110707 0.9224664 0.3774617 -0.2348608 0.3851041 0.8924883 -0.2480009 0.384777 0.8890682 -0.2480008 0.3847841 0.8890652 -0.2348656 0.3850798 0.8924975 -0.2638047 -6.35052e-4 0.964576 -0.277605 6.35134e-4 0.9606951 -0.2776023 6.23891e-4 0.9606959 -0.2637988 -7.07355e-4 0.9645776 0.2836179 -6.42614e-4 -0.9589372 0.2836154 -6.29877e-4 -0.958938 0.2641892 0.3830558 -0.8851398 0.2664363 0.3831797 -0.8844123 0.2664539 0.3831622 -0.8844146 0.2667843 0.3842684 -0.8838348 0.264539 0.3841361 -0.884567 0.2645318 0.3841492 -0.8845634 0.1204826 0.9233935 -0.3644564 0.1252595 0.9229314 -0.3640162 0.1256253 0.9229296 -0.3638947 0.1205813 0.9230731 -0.3652346 0.01241242 0.9999158 0.003807783 0.01977825 0.9997881 0.005704164 0.02098107 0.9997618 0.006031453 0.01240777 0.9999158 0.003817319 -0.09763371 0.9229452 0.3723439 -0.09768897 0.9226881 0.3729662 -0.257188 0.3856535 0.8860732 -0.2571771 0.3856806 0.8860646 -0.2835696 7.17088e-5 0.9589517 -0.2835748 1.03714e-4 0.9589502 0.0495553 -0.001878857 -0.9987697 0.04934448 -0.001902639 -0.9987801 0.2665952 0.3844111 -0.8838298 0.04126918 0.3909285 -0.9194954 0.04124218 0.3909789 -0.9194751 0.2665638 0.3844575 -0.8838191 0.008961796 0.9272142 -0.3744244 0.008969128 0.927215 -0.3744223 -0.01065868 0.9999422 0.001413166 -0.01066815 0.9999421 0.001408398 -0.0280773 0.9261582 0.3760889 -0.02807867 0.9261683 0.3760637 -0.04924058 0.3948206 0.9174378 -0.04921847 0.3948313 0.9174343 -0.04941046 0.001889646 0.9987769 -0.04955744 0.001551568 0.9987701 -0.0518772 -7.36722e-4 -0.9986532 -0.0518797 -7.80974e-4 -0.9986531 -0.05837678 0.3856452 -0.9207985 -0.05813485 0.3854327 -0.9209029 -0.04545843 0.9234415 -0.3810375 -0.04522353 0.9233825 -0.3812083 -0.02783262 0.9996125 5.69839e-4 -0.02732157 0.9996265 6.21772e-4 -0.005849242 0.9242596 0.3817199 -0.005837202 0.9242739 0.3816854 0.03692817 0.3886864 0.9206299 0.03689676 0.3886583 0.920643 0.05176973 4.16584e-4 0.998659 0.05192559 4.41833e-4 0.9986509 0.05696964 4.75579e-4 -0.9983759 0.05696624 4.66107e-4 -0.998376 0.04252004 0.385712 -0.921639 0.04252088 0.3857164 -0.9216371 -0.003406405 0.9231975 -0.3843108 -0.003380119 0.9231848 -0.3843416 -0.02718788 0.9996301 -7.39289e-4 -0.02790123 0.9996106 4.49005e-4 -0.02794802 0.9996092 6.65042e-4 -0.02783232 0.9996124 6.12443e-4 -0.02733767 0.9996261 -5.77146e-4 -0.02760845 0.9996183 -0.001008152 -0.04739403 0.9224042 0.383307 -0.04732114 0.9224427 0.3832237 -0.06311661 0.3833211 0.9214562 -0.06310367 0.3832809 0.9214738 -0.05699056 -8.11869e-4 0.9983744 -0.05698561 -1.68774e-4 0.998375 0.01871097 4.39658e-4 -0.9998248 0.01872819 3.75995e-4 -0.9998246 0.009513974 0.3851937 -0.9227868 0.009279727 0.385213 -0.9227811 -0.01127964 0.9232625 -0.3840042 -0.01126891 0.9230762 -0.3844519 -0.02010101 0.9997979 -3.02621e-4 -0.02711564 0.999632 -8.42635e-4 -0.02709776 0.9996327 -5.22637e-4 -0.02011156 0.9997978 -3.72102e-4 -0.02520459 0.9226526 0.3848077 -0.02547508 0.9227124 0.3846464 -0.02446556 0.3839385 0.9230345 -0.02510195 0.3839159 0.9230269 -0.01863312 -4.71782e-4 0.9998263 -0.01867294 -1.42926e-4 0.9998257 -0.1177131 -0.001028776 -0.9930471 -0.1175595 -4.97473e-4 -0.9930658 -0.1203141 0.3861393 -0.9145606 -0.1202857 0.3861552 -0.9145576 -0.0732994 0.9240453 -0.3751899 -0.07335412 0.9240478 -0.3751732 -0.03078699 0.999521 0.003165602 -0.03076583 0.9995214 0.003227472 0.01694738 0.9232886 0.3837332 0.01675206 0.9232884 0.3837421 0.09621036 0.3865281 0.9172458 0.09620875 0.3865311 0.9172446 0.1175743 1.47926e-4 0.9930642 0.1177042 1.70321e-4 0.9930487 -0.2332354 -0.001512169 -0.9724191 -0.2332485 -0.001628339 -0.9724158 -0.2335566 0.3809765 -0.8945994 -0.2335603 0.3809087 -0.8946274 -0.1315336 0.9212146 -0.3661458 -0.1315343 0.9212167 -0.3661403 -0.04651451 0.9989073 0.004546701 -0.04651886 0.9989073 0.004499077 0.0487563 0.9230036 0.3816899 0.04876464 0.9229894 0.3817235 0.1979584 0.3853265 0.901297 0.1979638 0.385315 0.9013006 0.233175 0.002285718 0.9724321 0.2331946 0.002237021 0.9724275</float_array>
+          <technique_common>
+            <accessor source="#layout_24h_001-mesh-normals-array" count="145" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="layout_24h_001-mesh-map-0">
+          <float_array id="layout_24h_001-mesh-map-0-array" count="672">-2.364e-7 1.872867 -1.214574 1.755843 -1.214574 1.872867 -1.214574 1.755843 -2.364e-7 1.872867 0 1.755843 -2.43276e-7 1.876254 -1.214574 1.872867 -1.214574 1.876254 -1.214574 1.872867 -2.43276e-7 1.876254 -2.364e-7 1.872867 -1.964953 1.21995 -4.04699e-7 1.21995 -3.93575e-7 1.218815 -3.93575e-7 1.218815 -1.964953 1.218815 -1.964953 1.21995 -6.84325e-7 1.248494 -1.964953 1.21995 -1.964953 1.248494 -1.964953 1.21995 -6.84325e-7 1.248494 -4.04699e-7 1.21995 -6.95449e-7 1.249629 -1.964953 1.248494 -1.964953 1.249629 -1.964953 1.248494 -6.95449e-7 1.249629 -6.84325e-7 1.248494 -4.60534e-7 1.872867 -1.214574 1.876254 -1.214574 1.872867 -1.214574 1.876254 -4.60534e-7 1.872867 -4.60534e-7 1.876254 -4.60534e-7 1.872867 -1.214574 1.872867 -1.214575 1.755843 -4.60534e-7 1.872867 -1.214575 1.755843 -6.90802e-7 1.755843 -1.214574 1.872867 -2.535888 1.755843 -2.535889 1.872867 -2.535888 1.755843 -1.214574 1.872867 -1.214574 1.755843 -1.214574 1.876254 -2.535889 1.872867 -2.535889 1.876254 -2.535889 1.872867 -1.214574 1.876254 -1.214574 1.872867 -4.102592 1.21995 -1.964953 1.21995 -1.964953 1.218815 -1.964953 1.218815 -4.102592 1.218815 -4.102592 1.21995 -4.102592 1.248494 -1.964953 1.248494 -1.964953 1.21995 -1.964953 1.21995 -4.102592 1.21995 -4.102592 1.248494 -4.102592 1.249629 -1.964953 1.249629 -1.964953 1.248494 -1.964953 1.248494 -4.102592 1.248494 -4.102592 1.249629 -1.214574 1.872867 -2.535889 1.876254 -2.535889 1.872867 -2.535889 1.876254 -1.214574 1.872867 -1.214574 1.876254 -1.214574 1.872867 -2.535889 1.872867 -2.535889 1.755843 -1.214574 1.872867 -2.535889 1.755843 -1.214575 1.755843 -2.535889 1.872867 -6.418944 1.755843 -6.418944 1.872867 -6.418944 1.755843 -2.535889 1.872867 -2.535888 1.755843 -2.535889 1.876254 -6.418944 1.872867 -6.418944 1.876254 -6.418944 1.872867 -2.535889 1.876254 -2.535889 1.872867 -10.38465 1.21995 -4.102592 1.21995 -4.102592 1.218815 -4.102592 1.218815 -10.38465 1.218815 -10.38465 1.21995 -10.38465 1.248494 -4.102592 1.248494 -4.102592 1.21995 -4.102592 1.21995 -10.38465 1.21995 -10.38465 1.248494 -10.38465 1.249629 -4.102592 1.249629 -4.102592 1.248494 -4.102592 1.248494 -10.38465 1.248494 -10.38465 1.249629 -2.535889 1.872867 -6.418944 1.876254 -6.418944 1.872867 -6.418944 1.876254 -2.535889 1.872867 -2.535889 1.876254 -2.535889 1.872867 -6.418944 1.872867 -6.418944 1.755843 -2.535889 1.872867 -6.418944 1.755843 -2.535889 1.755843 -8.302592 1.872867 -6.418944 1.872867 -6.418944 1.755843 -8.302592 1.872867 -6.418944 1.755843 -8.302592 1.755843 -8.302592 1.876254 -6.418944 1.876254 -6.418944 1.872867 -8.302592 1.876254 -6.418944 1.872867 -8.302592 1.872867 -13.43203 1.218815 -10.38465 1.21995 -10.38465 1.218815 -10.38465 1.21995 -13.43203 1.218815 -13.43203 1.21995 -13.43203 1.21995 -10.38465 1.248494 -10.38465 1.21995 -10.38465 1.248494 -13.43203 1.21995 -13.43203 1.248494 -13.43203 1.248494 -10.38465 1.249629 -10.38465 1.248494 -10.38465 1.249629 -13.43203 1.248494 -13.43203 1.249629 -8.302592 1.876254 -6.418944 1.872867 -6.418944 1.876254 -6.418944 1.872867 -8.302592 1.876254 -8.302592 1.872867 -8.302592 1.872867 -6.418944 1.755843 -6.418944 1.872867 -6.418944 1.755843 -8.302592 1.872867 -8.302593 1.755843 -12.42027 1.872867 -8.302592 1.872867 -8.302592 1.755843 -12.42027 1.872867 -8.302592 1.755843 -12.42027 1.755843 -12.42027 1.876254 -8.302592 1.876254 -8.302592 1.872867 -12.42027 1.876254 -8.302592 1.872867 -12.42027 1.872867 -20.09367 1.21995 -13.43203 1.21995 -13.43203 1.218815 -13.43203 1.218815 -20.09367 1.218815 -20.09367 1.21995 -20.09367 1.248494 -13.43203 1.248494 -13.43203 1.21995 -13.43203 1.21995 -20.09367 1.21995 -20.09367 1.248494 -20.09367 1.249629 -13.43203 1.249629 -13.43203 1.248494 -13.43203 1.248494 -20.09367 1.248494 -20.09367 1.249629 -12.42027 1.876254 -8.302592 1.872867 -8.302592 1.876254 -8.302592 1.872867 -12.42027 1.876254 -12.42027 1.872867 -12.42027 1.872867 -8.302593 1.755843 -8.302592 1.872867 -8.302593 1.755843 -12.42027 1.872867 -12.42027 1.755843 -13.85377 1.872867 -12.42027 1.872867 -12.42027 1.755843 -13.85377 1.872867 -12.42027 1.755843 -13.85377 1.755843 -12.42027 1.876254 -13.85377 1.872867 -13.85377 1.876254 -13.85377 1.872867 -12.42027 1.876254 -12.42027 1.872867 -20.09367 1.21995 -22.4128 1.218815 -22.4128 1.21995 -22.4128 1.218815 -20.09367 1.21995 -20.09367 1.218815 -22.4128 1.21995 -20.09367 1.248494 -20.09367 1.21995 -20.09367 1.248494 -22.4128 1.21995 -22.4128 1.248494 -22.4128 1.249629 -20.09367 1.249629 -20.09367 1.248494 -20.09367 1.248494 -22.4128 1.248494 -22.4128 1.249629 -13.85377 1.876254 -12.42027 1.872867 -12.42027 1.876254 -12.42027 1.872867 -13.85377 1.876254 -13.85377 1.872867 -13.85377 1.872867 -12.42027 1.755843 -12.42027 1.872867 -12.42027 1.755843 -13.85377 1.872867 -13.85377 1.755843 -13.85377 1.872867 -14.8717 1.755843 -14.8717 1.872867 -14.8717 1.755843 -13.85377 1.872867 -13.85377 1.755843 -14.8717 1.876254 -13.85377 1.876254 -13.85377 1.872867 -14.8717 1.876254 -13.85377 1.872867 -14.8717 1.872867 -24.05961 1.21995 -22.4128 1.218815 -24.05961 1.218815 -22.4128 1.218815 -24.05961 1.21995 -22.4128 1.21995 -24.05961 1.248494 -22.4128 1.21995 -24.05961 1.21995 -22.4128 1.21995 -24.05961 1.248494 -22.4128 1.248494 -24.05961 1.249629 -22.4128 1.248494 -24.05961 1.248494 -22.4128 1.248494 -24.05961 1.249629 -22.4128 1.249629 -14.8717 1.872867 -13.85377 1.876254 -14.8717 1.876254 -13.85377 1.876254 -14.8717 1.872867 -13.85377 1.872867 -14.8717 1.755843 -13.85377 1.872867 -14.8717 1.872867 -13.85377 1.872867 -14.8717 1.755843 -13.85377 1.755843 -15.45297 1.872867 -14.8717 1.872867 -14.8717 1.755843 -15.45297 1.872867 -14.8717 1.755843 -15.45297 1.755843 -15.45297 1.876254 -14.8717 1.876254 -14.8717 1.872867 -15.45297 1.876254 -14.8717 1.872867 -15.45297 1.872867 -25 1.218815 -24.05961 1.21995 -24.05961 1.218815 -24.05961 1.21995 -25 1.218815 -25 1.21995 -25 1.21995 -24.05961 1.248494 -24.05961 1.21995 -24.05961 1.248494 -25 1.21995 -25 1.248494 -25 1.248494 -24.05961 1.249629 -24.05961 1.248494 -24.05961 1.249629 -25 1.248494 -25 1.249629 -15.45297 1.872867 -14.8717 1.876254 -15.45297 1.876254 -14.8717 1.876254 -15.45297 1.872867 -14.8717 1.872867 -15.45297 1.872867 -14.8717 1.755843 -14.8717 1.872867 -14.8717 1.755843 -15.45297 1.872867 -15.45297 1.755843</float_array>
+          <technique_common>
+            <accessor source="#layout_24h_001-mesh-map-0-array" count="336" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="layout_24h_001-mesh-vertices">
+          <input semantic="POSITION" source="#layout_24h_001-mesh-positions"/>
+        </vertices>
+        <triangles material="tyres-material" count="112">
+          <input semantic="VERTEX" source="#layout_24h_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#layout_24h_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#layout_24h_001-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 1 1 3 0 0 4 3 3 5 4 4 6 5 5 7 6 6 8 5 5 9 4 4 10 7 7 11 8 8 12 9 9 13 10 10 14 10 11 15 11 12 16 8 13 17 12 14 18 13 15 19 14 16 20 13 17 21 12 18 22 15 18 23 16 19 24 17 20 25 18 21 26 17 20 27 16 19 28 19 22 29 20 23 30 21 24 31 22 25 32 21 24 33 20 23 34 23 26 35 24 27 36 25 28 37 26 29 38 24 27 39 26 29 40 27 30 41 2 2 42 28 31 43 29 32 44 28 31 45 2 2 46 1 1 47 6 33 48 30 34 49 31 35 50 30 36 51 6 37 52 5 38 53 32 39 54 8 40 55 11 41 56 11 41 57 33 42 58 32 39 59 34 43 60 14 44 61 13 45 62 13 45 63 35 46 64 34 43 65 36 47 66 18 21 67 17 20 68 17 20 69 37 48 70 36 47 71 22 25 72 38 49 73 39 50 74 38 49 75 22 25 76 21 24 77 25 28 78 40 51 79 41 52 80 25 28 81 41 52 82 26 29 83 29 32 84 42 53 85 43 54 86 42 53 87 29 32 88 28 31 89 31 55 90 44 56 91 45 57 92 44 56 93 31 55 94 30 58 95 46 59 96 32 39 97 33 42 98 33 42 99 47 60 100 46 59 101 48 61 102 34 43 103 35 46 104 35 46 105 49 62 106 48 61 107 50 63 108 36 47 109 37 48 110 37 48 111 51 64 112 50 63 113 39 50 114 52 65 115 53 66 116 52 65 117 39 50 118 38 49 119 40 51 120 54 67 121 55 68 122 40 51 123 55 68 124 41 52 125 56 69 126 43 54 127 42 53 128 56 69 129 42 53 130 57 70 131 58 71 132 45 57 133 44 56 134 58 71 135 44 56 136 59 72 137 60 73 138 46 59 139 47 60 140 46 59 141 60 73 142 61 74 143 62 75 144 48 61 145 49 62 146 48 61 147 62 75 148 63 76 149 64 77 150 50 63 151 51 64 152 50 63 153 64 77 154 65 78 155 66 79 156 53 66 157 52 65 158 53 66 159 66 79 160 67 80 161 68 81 162 55 68 163 54 67 164 55 68 165 68 81 166 69 82 167 70 83 168 56 69 169 57 70 170 70 83 171 57 70 172 71 84 173 72 85 174 58 71 175 59 72 176 72 85 177 59 72 178 73 86 179 74 87 180 61 74 181 60 73 182 60 73 183 75 88 184 74 87 185 76 89 186 63 90 187 62 91 188 62 92 189 77 93 190 76 94 191 78 95 192 65 78 193 64 77 194 64 77 195 79 96 196 78 95 197 80 97 198 67 80 199 66 79 200 67 80 201 80 97 202 81 98 203 82 99 204 69 82 205 68 81 206 69 82 207 82 99 208 83 100 209 84 101 210 70 83 211 71 84 212 84 101 213 71 84 214 85 102 215 72 85 216 86 103 217 87 104 218 86 103 219 72 85 220 73 86 221 74 87 222 88 105 223 89 106 224 88 105 225 74 87 226 75 88 227 90 107 228 76 108 229 77 109 230 76 108 231 90 107 232 91 110 233 92 111 234 78 95 235 79 96 236 79 96 237 93 112 238 92 111 239 94 113 240 81 98 241 80 97 242 81 98 243 94 113 244 95 114 245 96 115 246 83 100 247 82 99 248 83 100 249 96 115 250 97 116 251 84 101 252 98 117 253 99 118 254 98 117 255 84 101 256 85 102 257 100 119 258 87 104 259 86 103 260 100 119 261 86 103 262 101 120 263 102 121 264 88 105 265 103 122 266 88 105 267 102 121 268 89 106 269 104 123 270 90 107 271 105 124 272 90 107 273 104 123 274 91 110 275 106 125 276 93 112 277 107 126 278 93 112 279 106 125 280 92 111 281 108 127 282 94 113 283 109 128 284 94 113 285 108 127 286 95 114 287 110 129 288 96 115 289 111 130 290 96 115 291 110 129 292 97 116 293 112 131 294 99 118 295 98 117 296 112 131 297 98 117 298 113 132 299 114 133 300 100 119 301 101 120 302 114 133 303 101 120 304 115 134 305 116 135 306 102 121 307 103 122 308 102 121 309 116 135 310 117 136 311 118 137 312 104 123 313 105 124 314 104 123 315 118 137 316 119 138 317 120 139 318 106 125 319 107 126 320 106 125 321 120 139 322 121 140 323 122 141 324 109 128 325 123 142 326 109 128 327 122 141 328 108 127 329 124 143 330 110 129 331 111 130 332 110 129 333 124 143 334 125 144 335</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="layout_24h_001" name="layout_24h.001" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 7.54979e-8 -1 0 0 1 7.54979e-8 0 0 0 0 1</matrix>
+        <instance_geometry url="#layout_24h_001-mesh" name="layout_24h.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="jersey-material" target="#jersey-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="tyres-material" target="#tyres-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="MB_Sprinter_2014-material" target="#MB_Sprinter_2014-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="armco-material" target="#armco-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="null-material" target="#null-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="tyrewall_002-material" target="#tyrewall_002-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="marshall-material" target="#marshall-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="tents-material" target="#tents-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="objects-material" target="#objects-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="fence-material" target="#fence-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="misc-alpha-material" target="#misc-alpha-material">
+                <bind_vertex_input semantic="layout_24h-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
