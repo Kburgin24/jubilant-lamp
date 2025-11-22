@@ -42,7 +42,7 @@
     {
       "capacity":3,
       "defaultPrice":65000,
-      "description":"",
+      "description":" ",
       "icon":"poi_garage_2_round",
       "id":"pitLaneMe",
       "name":"Pit Box 4",
